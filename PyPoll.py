@@ -8,7 +8,7 @@ import os
 import csv
 # Assign a variable for the file to load and the path.
 #file_to_load = 'Election Results\Resources\election_results.csv'
-file_to_load = os.path.join("Election Results", "Resources", "election_results.csv")
+file_to_load = os.path.join("Python - Pypoll", "Resources", "election_results.csv")
 
 with open(file_to_load) as election_data:
     
@@ -16,7 +16,7 @@ with open(file_to_load) as election_data:
     print(election_data)
 
 # Create a filename variable to a direct or indirect path to the file that will be used to write into.
-file_to_save = os.path.join("Election Results", "analysis", "election_analysis.txt")
+file_to_save = os.path.join("Python - Pypoll", "analysis", "election_analysis.txt")
 # Using the open() function with the "w" mode we will write data to the file.
 
 # Method 1
